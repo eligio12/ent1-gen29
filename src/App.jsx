@@ -10,7 +10,7 @@ function App() {
   const phraseRandom = getRandomElemArray(phrases)
   const numberRandom = getRandomElemArray([1,2 , 3, 4])
 
-  const [quote, setQuote] = useState("  ")
+  const [quote, setQuote] = useState(phraseRandom)
   const [numberBg, setNumberBg] = useState(numberRandom)
 
   const bgStyle = {
